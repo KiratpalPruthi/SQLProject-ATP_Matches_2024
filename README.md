@@ -142,7 +142,7 @@ WHERE tourney_level = 'M' or tourney_level = 'A'
 GROUP BY surface
 ORDER BY 1 desc;
 ```
-| Match_Duration | Surface |
+| match_duration | surface |
 |---------------|---------|
 | 112.98       | Clay    |
 | 105.67       | Hard    |
@@ -160,7 +160,7 @@ GROUP BY winner_name
 ORDER BY 2 desc
 LIMIT 1;
 ```
-| Winner_Name   | Tournaments_Won |
+| winner_name   | tournaments_won |
 |--------------|----------------|
 | Jannik Sinner | 8              |
 
