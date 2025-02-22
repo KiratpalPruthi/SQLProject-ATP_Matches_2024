@@ -112,7 +112,7 @@ FROM dominant_hand_stats;
 |---------------------|----------------------|----------------------|
 | 832                 | 5284                 | 0.16                 |
 
-left to right ratio - 0.16:1 = 4:25
+Left to right ratio - 0.16:1 = 4:25
 
 ### Q3.	Which tournaments saw the most upsets in 2024?
 Upsets defined as unseeded players beating players seeded 10 or lower.
@@ -285,6 +285,7 @@ FROM match_wins mw
 JOIN first_to_20 ft ON mw.tourney_date = ft.first_win_date
 WHERE mw.cumulative_wins = 20
 ORDER BY mw.tourney_date;
+```
 
 | player_name      | tourney_date | tourney_name   |
 |-----------------|-------------|---------------|
