@@ -292,9 +292,8 @@ ORDER BY mw.tourney_date;
 | Grigor Dimitrov | 2024-03-18  | Miami Masters |
 | Jannik Sinner  | 2024-03-18  | Miami Masters  |
  
-
-```
 Both Jannik Sinner and Grigor Dimitrov achieved 20 wins in March at the Miami Masters.
+
 ### Q9. Which players showed the most improvement in their ranking in between the start and end of 2024 season?
 ```
 WITH player_ranking_changes AS (
